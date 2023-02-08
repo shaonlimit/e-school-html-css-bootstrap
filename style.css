@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+:root {
+    --green: #21B573;
+    --blue: #56548C;
+    --red: #FD511A;
+    --black:  #282531;
+    --gray: #F0FFF0;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+
+/* -------------header---------- */
+.logo {
+    width: 140px;
+}
+.btn {
+    outline: none;
+    border: none;
+   background-color: var(--green);
+   color: white;
+   border-radius: 50px;
+   padding: 8px 30px;
+}
+.nav-item {
+    padding: 0 15px;
+}
+.header-p {
+    color: var(--red);
+}
+.header-title {
+    font-weight: 700;
+}
+.header-title span {
+    color: var(--green);
+}
+#header {
+    background-color: var(--gray);
+    margin-bottom: 100px;
+}
+.header {
+    margin-top: 50px;
+}
+
+/* --------------icon-section------------- */
+.icon img{
+    width: 50px;
+}
+.icon {
+    padding: 60px 20px;
+    background-color: var(--gray);
+    border-radius: 10px;
+   
+}
+h4{
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--blue);
+}
+
+/* -------------online courses-------------- */
+.courses-title {
+    font-weight: 700;
+    text-align: center;
+    color: var(--blue);
+    margin-bottom: 80px;
+}
+.count img {
+    width: 25px;
+}
+.count p {
+    display: inline-block;
+}
+/* ---------------testimonial----------- */
+#testimonial img {
+    width: 120px;
+}
+.testimonial-p {
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .testimonial-p {
+        text-align: center;
+    }
+
+}
+
+/* --------------footer------------- */
+#footer {
+    background-color: var(--black);
+  padding-top: 50px;
+}
+.footer-courses p {
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.footer-title {
+    font-weight: 800;
+}
+.footer-bottom-text {
+    font-size: 14px;
+}
+
+
